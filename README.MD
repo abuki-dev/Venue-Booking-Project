@@ -37,3 +37,7 @@ _Note: The project excludes food catering, ticket sales, and social media market
 ## Group Members
 
 1. Abubeker Ahmed (ID: 3696/17)[Leader]
+2.Abdulhafiz Muhammed (ID: 0303/17)
+3.Ahlam Nuru (ID: 0057/17)
+4.Selahudin Ali (ID: 1814/17)
+5.Zikra Seid (ID: 0714/17)
