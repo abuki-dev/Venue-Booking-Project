@@ -39,5 +39,5 @@ _Note: The project excludes food catering, ticket sales, and social media market
 1. Abubeker Ahmed (ID: 3696/17)[Leader]
 2. Hafiz Mohammed (ID: 0303/17) [abm dev]
 3. Ahlam Nuru (ID: 0057/17)
-4. Selahadin Ali (ID: 1814/17)
+4. Selahadin Ali (ID: 1814/17) [selahudin 44]
 5. Zikra Seid (ID: 0714/17)
