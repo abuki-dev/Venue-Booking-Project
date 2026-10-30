@@ -1,23 +1,105 @@
-  <h1>Manager-Reaquirment</h1>
+ 1. Functional Requirements
 
-1. Booking Approval & Review
-FR-M1 (Approve Booking): The system shall allow the Manager to view incoming booking requests submitted by clients.
-FR-M2: The system shall allow the Manager to review booking details, including the requested date(s), start time, end time, event type, guest count, and selected add-ons.
-FR-M3: The system shall allow the Manager to approve or reject a booking request.
-FR-M4: The system shall automatically update the booking status and notify the Client once the Manager approves or rejects the request.
-2. Pricing Management
-FR-M5 (Set Prices): The system shall allow the Manager to define and update base rental prices per day for venues.
-FR-M6: The system shall allow the Manager to set prices for individual add-on services and optional features.
-FR-M7: The system shall allow the Manager to configure special offer pricing or seasonal discounts for venues.
-3. Staff Task Assignment
-FR-M8 (Assign Staff Tasks): The system shall allow the Manager to create operational and setup tasks linked to specific venues or bookings.
-FR-M9: The system shall allow the Manager to assign tasks to registered Staff members.
-FR-M10: The system shall allow the Manager to track the progress and completion status of tasks assigned to Staff.
-4. System Reporting & Analytics
-FR-M11 (View Reports): The system shall allow the Manager to view and generate booking reports (e.g., total bookings, cancellations, venue occupancy rates).
-FR-M12: The system shall allow the Manager to view financial reports, including revenue generated, verified payments, and refunded amounts over specified date ranges.
-5. Payment Review & Verification Handling
-FR-M13 (Review Failed Payments): The system shall alert the Manager when a client's transaction ID fails automatic verification.
-FR-M14: The system shall allow the Manager to review payment details submitted by the client (transaction ID, payment method, date, and total amount).
-FR-M15: The system shall allow the Manager to manually override and verify or decline a payment status after verifying with external bank records (Telebirr, CBE, or other banks).
-FR-M16: The system shall allow the Manager to contact or respond to Clients regarding failed payment queries.
+  
+1.1 Manager Account and Access Management
+
+
+ ID              Requirement
+
+
+FR-M1	The system shall allow the Venue Manager to log in using an email address and password.
+FR-M2	The system shall allow a logged-in Venue Manager to log out.
+FR-M3	The system shall allow the Venue Manager to change their own password.
+FR-M4	The system shall allow the Venue Manager to view and update their personal profile information.
+FR-M5	The system shall allow the Venue Manager to view the venue or venues assigned to them.
+FR-M6	The system shall restrict the Venue Manager to managing only the venues assigned to them.
+
+
+1.2 Booking Management
+
+    ID	Requirement
+  
+
+    
+FR-M7	The system shall allow the Venue Manager to view all booking requests for their assigned venue.
+FR-M8	The system shall allow the Venue Manager to approve pending booking requests.
+FR-M9	The system shall allow the Venue Manager to reject booking requests and provide a reason for rejection.
+FR-M10	The system shall allow the Venue Manager to view booking details, including customer information, booking date, time, venue and payment status.
+FR-M11	The system shall allow the Venue Manager to check venue availability before approving a booking.
+FR-M12	The system shall prevent the Venue Manager from approving two bookings for the same venue, date and time when they conflict.
+FR-M13	The system shall allow the Venue Manager to update the status of a booking when necessary.
+FR-M14	The system shall notify the customer when their booking is approved or rejected.
+FR-M15	The system shall allow the Venue Manager to filter bookings by date, booking status and payment status.
+
+1.3 Venue Price Management
+
+ID	Requirement
+
+FR-M16	The system shall allow the Venue Manager to set prices for their assigned venue.
+FR-M17	The system shall allow the Venue Manager to update existing venue prices.
+FR-M18	The system shall allow the Venue Manager to set different prices based on booking duration, date or time.
+FR-M19	The system shall allow the Venue Manager to set special prices for weekends, holidays and special occasions.
+FR-M20	The system shall allow the Venue Manager to define additional service charges where applicable.
+FR-M21	The system shall allow the Venue Manager to view the current and previously configured venue prices.
+FR-M22	The system shall apply updated prices to new bookings without changing the prices of already confirmed bookings.
+
+1.4 Staff and Task Management
+
+ID	Requirement
+
+FR-M23	The system shall allow the Venue Manager to view the list of Staff assigned to their venue.
+FR-M24	The system shall allow the Venue Manager to assign tasks to Staff members.
+FR-M25	The system shall allow the Venue Manager to provide task descriptions and instructions to Staff.
+FR-M26	The system shall allow the Venue Manager to set deadlines and priorities for assigned tasks.
+FR-M27	The system shall allow the Venue Manager to view the status of assigned tasks, including pending, in progress and completed.
+FR-M28	The system shall allow the Venue Manager to update or reassign tasks when necessary.
+FR-M29	The system shall allow the Venue Manager to review completed and overdue tasks.
+FR-M30	The system shall notify Staff when a new task is assigned or an existing task is updated.
+
+
+1.5 Reports and Performance Monitoring
+
+ID	Requirement
+
+FR-M31	The system shall allow the Venue Manager to view reports for their assigned venue.
+FR-M32	The system shall allow the Venue Manager to view the total number of bookings within a selected period.
+FR-M33	The system shall allow the Venue Manager to view total income generated by their venue.
+FR-M34	The system shall allow the Venue Manager to view income reports based on daily, weekly and monthly periods.
+FR-M35	The system shall allow the Venue Manager to view booking reports categorized by approved, pending, rejected and cancelled bookings.
+FR-M36	The system shall allow the Venue Manager to view payment and refund records related to their venue.
+FR-M37	The system shall allow the Venue Manager to view staff task performance reports.
+FR-M38	The system shall allow the Venue Manager to filter reports by date range and booking status.
+
+1.6 Failed Booking and Transaction Review
+
+ID	Requirement
+FR-M39	The system shall allow the Venue Manager to view failed booking requests related to their assigned venue.
+FR-M40	The system shall allow the Venue Manager to review the reasons why a booking request failed.
+FR-M41	The system shall allow the Venue Manager to view failed payment transactions related to their venue.
+FR-M42	The system shall allow the Venue Manager to review payment failure details, including transaction status, date and failure reason.
+FR-M43	The system shall allow the Venue Manager to identify booking conflicts and unavailable booking periods.
+FR-M44	The system shall allow the Venue Manager to take appropriate action on failed booking requests, such as contacting the customer or recommending another available time.
+FR-M45	The system shall allow the Venue Manager to track the resolution status of failed booking and payment issues.
+
+
+2. Non-Functional Requirements
+
+ID	Requirement
+
+
+NFR-M1	The system shall allow only authenticated users with the Venue Manager role to access Manager pages and functions.
+NFR-M2	The system shall restrict Venue Managers from accessing or modifying venues that are not assigned to them.
+NFR-M3	The system shall lock a Venue Manager account for 15 minutes after five consecutive failed login attempts.
+NFR-M4	The system shall automatically log out a Venue Manager after 15 minutes of inactivity.
+NFR-M5	The system shall load Manager pages within 3 seconds under normal operating conditions.
+NFR-M6	The system shall record important Manager activities, including booking approvals, booking rejections, price changes and staff task assignments, in the activity log.
+NFR-M7	The system shall ensure that booking approval does not result in double bookings or conflicts in venue availability.
+NFR-M8	The system shall preserve confirmed booking records when venue prices are updated.
+NFR-M9	The system shall ensure that booking, payment and income reports display accurate and consistent information.
+NFR-M10	The system shall protect customer, payment and staff information from unauthorized access.
+NFR-M11	The system shall be compatible with current versions of commonly used web browsers on desktop and mobile devices.
+NFR-M12	The system shall automatically notify relevant Staff members when tasks are assigned or updated.
+
+
+
+
