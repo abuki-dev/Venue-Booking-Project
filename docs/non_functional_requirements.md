@@ -1,6 +1,6 @@
 # Non-Functional Requirements
 
-## 1Client
+## 1.Client
 
 | ID     | Requirement                                                                                                                     |
 | ------ | ------------------------------------------------------------------------------------------------------------------------------- |
@@ -13,11 +13,11 @@
 | NFR-C7 | The system shall reject a transaction ID that has already been used for another booking.                                        |
 
 
- <h2>##2Staff</h2>
+ <h2>##2.Staff</h2>
  <h3>###2.1 Performance</h3>
 |ID	        |Requirement
 |-----------|--------------------------------------------------------------------------------------------------------------|
-|STF-NFR-01	|The system shall display the Staff dashboard within 3 seconds and less than under normal network              | conditions.                
+|STF-NFR-01	|The system shall display the Staff dashboard within 3 seconds and less than under normal network              conditions.                                                                                                                |
 |STF-NFR-02	|The system shall load assigned tasks and event schedules without unnecessary delays.                          |
 |STF-NFR-03	|The system shall save task completion updates and issue reports without unnecessary delays.                   |
 |STF-NFR-04	|The system shall send important task and event notifications as soon as possible.                             |
