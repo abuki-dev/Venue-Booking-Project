@@ -1,7 +1,7 @@
 <h1>#Staff Requirements</h1>
-<h2>##1. Functional Requirements</h2>
+<h2>1. Functional Requirements</h2>
 
-<h3>###1.1 Account Management</h3>
+<h3>1.1 Account Management</h3>
 
 |ID	     |Requirement
 |--------|--------------------------------------------------------------------------------------------------------------|
@@ -12,7 +12,7 @@
 |STF-05	 |The system shall allow Staff members to update their phone number and other editable personal information.    |
 |STF-06	 |The system shall prevent unauthorized users from accessing Staff accounts.                                    |
 
-<h3>###1.2 Task Management</h3>
+<h3>1.2 Task Management</h3>
 
 |ID	     |Requirement
 |--------|--------------------------------------------------------------------------------------------------------------|
@@ -25,7 +25,7 @@
 |STF-07	 |The system shall allow Staff members to view their previously completed tasks.                                |
 |STF-08	 |The system shall allow Staff members to report a task that they cannot complete due to a problem.             |
 
-<h3>###1.3 Event Schedule</h3>
+<h3>1.3 Event Schedule</h3>
 
 |ID	     |Requirement
 |--------|--------------------------------------------------------------------------------------------------------------|
@@ -37,7 +37,7 @@
 |STF-06	 |The system shall allow Staff members to view upcoming events they are assigned to work on.                    |
 |STF-07	 |The system shall display important instructions related to each event.                                        |
 
-<h3>###1.4 Venue Issue Reporting</h3>
+<h3>1.4 Venue Issue Reporting</h3>
 
 |ID	     |Requirement
 |--------|--------------------------------------------------------------------------------------------------------------|
@@ -50,7 +50,7 @@ while the event is taking place.                                                
 |STF-06	 |The system shall allow Staff members to view the status of their reported issues.                             |
 |STF-07	 |The system shall notify Staff members when the Venue Manager responds to their reported issues.               |
 
-<h3>###1.5 Status and Notifications</h3>
+<h3>1.5 Status and Notifications</h3>
 
 |ID	     |Requirement
 |--------|--------------------------------------------------------------------------------------------------------------|
@@ -61,7 +61,7 @@ while the event is taking place.                                                
 |STF-05	 |The system shall notify Staff members when the Venue Manager sends instructions or updates related to 
 their work.                                                                                                             |
 
-<h3>###1.6 Access Control</h3>
+<h3>1.6 Access Control</h3>
 
 |ID	     |Requirement
 |--------|--------------------------------------------------------------------------------------------------------------|
