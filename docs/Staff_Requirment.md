@@ -59,7 +59,7 @@ while the event is taking place.                                                
 |STF-03	 |The system shall notify Staff members about important event updates and schedule changes.                     |
 |STF-04	 |The system shall allow Staff members to view their task completion history.                                   |
 |STF-05	 |The system shall notify Staff members when the Venue Manager sends instructions or updates related to 
-their work.                                                                                                             |
+          their work.                                                                                                   |
 
 <h3>1.6 Access Control</h3>
 
