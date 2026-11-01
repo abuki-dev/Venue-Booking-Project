@@ -1,4 +1,4 @@
-<h1>#Staff Requirements</h1>
+<h1>Staff Requirements</h1>
 <h2>1. Functional Requirements</h2>
 
 <h3>1.1 Account Management</h3>
