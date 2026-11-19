@@ -61,7 +61,9 @@ The Admin is the person who manages the whole system, including users, venues an
 | ADM-NFR-06  | The system shall ask the Admin to confirm before deactivating an account or a venue.                                              |
 | ADM-NFR-07  | The system shall make sure no Admin action causes a double booking or deletes confirmed booking data.                             |
 | ADM-NFR-08  | The system shall be usable in current versions of common web browsers on desktop and mobile screens.                              |
-| ADM-NFR-09  | The system shall back up all data daily so it can be restored after a failure.                                                    |
+| ADM-NFR-09  | The system shall back up all data daily so it can be restored after a failure.                                |
+| ADM-NFR-10  |  The system shall not show any user’s password to the Admin at any time.                  
+                       |
 
 ### 4. Manager
 
